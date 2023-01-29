@@ -5,11 +5,13 @@ dotsnippets
 
 ## Installation
 
-* homebrew: TODO
+* homebrew
+    * `brew tap kaiinui/dotsnippets`
+    * `brew install dotsnippets`
 
 ## Usage
 
-`dotsnippets`
+Just `dotsnippets`
 
 (optionally you can add `--dir` option to bring another snippets directory.)
 
