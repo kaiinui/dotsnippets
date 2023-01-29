@@ -1,3 +1,5 @@
+import { parse } from "https://deno.land/std@0.175.0/flags/mod.ts";
+
 interface SnippetsJson {
     [key: string]: Snippet
 }
@@ -9,8 +11,14 @@ interface Snippet {
 }
 
 // TODO(kaiinui): Currently it will brake existing snippets jsons due to not reading them before process .snippets dir.
+// TODO(kaiinui): No error handling about directory structure, even if given dir is not exist.
 async function main() {
-    const path = Deno.args.length > 0 ? Deno.args[0] : Deno.env.get("HOME") + "/.snippets/";
+    const opts = parse(Deno.args, {
+        string: ["dir"]
+    });
+    const dir = opts.dir;
+
+    const path = dir ? dir : Deno.env.get("HOME") + "/.snippets/";
     await iterateSnippetsFolder(path);
 }
 
