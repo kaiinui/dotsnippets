@@ -50,3 +50,7 @@ It will produce VSCode snippets JSONs and write them into the VSCode snippets di
   }
 }
 ```
+
+You can use the snippets as follows.
+
+![](https://raw.githubusercontent.com/kaiinui/dotsnippets/main/public/readme-snippet.png)
