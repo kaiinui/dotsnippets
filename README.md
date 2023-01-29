@@ -3,19 +3,25 @@ dotsnippets
 
 `dotsnippets` allows you to manage your VSCode snippets in `.snippets` directory.
 
+## Installation
+
+* homebrew: TODO
+
 ## Usage
 
 `dotsnippets`
 
 (optionally you can add `--dir` option to bring another snippets directory.)
 
-This command assumes you have the following directory structure.
+This command assumes you have the following directory structure. Please note that the filename will be used as VSCode snippet prefix, which allows you to autocomplete the snippet with it.
 
 ```
 $HOME
 └.snippets
  └typescript
-  └some-nice-prefix.ts
+  └best-prefix-you-want-to-autocomplete.ts
+  └pretty-nice-prefix.ts
+  └nice-prefix.ts
  └javascript
   └some-nice-prefix.js
  └python
