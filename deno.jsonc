@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --allow-read --allow-write --allow-env --watch main.ts --dir=$HOME/dev/dotfiles/snippets",
+    "dev": "deno run --unstable --allow-read --allow-write --allow-env --watch main.ts --dir=./out",
     "compile": "deno compile --allow-read --allow-write --allow-env main.ts"
   }
 }
