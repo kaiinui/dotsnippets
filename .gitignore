@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/deno,node,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=deno,node,macos
 
+TODO.md
+
 ### Deno ###
 /.idea/
 /.vscode/

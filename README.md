@@ -5,9 +5,10 @@ dotsnippets
 
 ## Installation
 
-* homebrew
-    * `brew tap kaiinui/dotsnippets`
-    * `brew install dotsnippets`
+### homebrew
+
+* `brew tap kaiinui/dotsnippets`
+* `brew install dotsnippets`
 
 ## Usage
 
